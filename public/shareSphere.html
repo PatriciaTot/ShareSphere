@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>ShareSphere</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/object.css"/>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/navBar.css"/> 
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="../javascripts/object.client.js" defer></script>
+</head>
+
+<body>
+  <header>
+		<nav>
+			<ul>
+        <div>
+            <input type="text" placeholder="login" value="" id="user"/>
+          </label>
+        </div>
+      </div>
+				<li><a href="about.html">A propos</a></li>
+				<div id="controls">
+          <input type="submit" id="logout" value="Se déconnecter">
+        </div>
+			</ul>
+		</nav>
+	</header>
+
+  <hr class="separator">
+
+
+  <h1>ShareSphere - Votre plateforme de partage</h1>
+  
+  <section class="objects-section">
+
+      <div class="borrowed-section" id="borrowed-section">
+      </div>
+
+      <div class="added-section">
+        <h2>Ajouter un objet : </h2>
+        <ul class="added-list">
+          <li class="added-item"> <label for="newObject">Nouvel objet :
+            <input type="text" placeholder="description" value="" id="newObject"/>
+          </label> <button class="add-btn">Ajouter</button></li>
+        </ul>
+      </div>
+
+      <div class="available-section" id="available-section">
+      </div>
+
+      <div class="borrowed-by-others-section" id="borrowed-by-others-section">
+      </div>
+
+  </section>
+
+
+</body>
+
+</html>

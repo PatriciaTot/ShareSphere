@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Création de compte</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/navBar.css"/>
+
+  <script src="../javascripts/register.client.js" defer="true"/></script>
+</head>
+
+<body>
+  <header>
+		<nav>
+			<ul>
+				<li><a href="about.html">A propos</a></li>
+			</ul>
+		</nav>
+	</header>
+
+  <hr class="separator">
+
+  <h1>Création de compte</h1>
+
+  <section class="form">
+    <div id="userdata">
+      <div>
+        <label for="username">Nom
+            <input type="text" placeholder="nom" value="" id="username"/>
+        </label>
+        </div>
+        <div>
+        <label for="userlogin">Login
+            <input type="text" placeholder="login" value="" id="userlogin"/>
+        </label>
+        </div>
+        <div>
+        <label>Mot de passe
+            <input type="password" placeholder="mot de passe" value="" id="userpassword"/>
+        </label>
+        </div>
+    </div>
+    <div id="controls">
+        <input type="submit" id="register" value="S'inscrire">
+    </div>
+    <div>
+        <a href="/access/login">vous avez déjà un compte ?</a>
+    </div>
+</section>
+
+  <div id="problem"></div>
+
+</body>
+
+</html>

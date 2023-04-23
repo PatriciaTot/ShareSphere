@@ -1,0 +1,29 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid #1a898f;
+    font-size: 1.2rem;
+}
+  
+ul li:last-child {
+    border-bottom: none;
+}
+  
+ul li:hover {
+    background-color: #777bac;
+    cursor: pointer;
+}
+  
+ul li a {
+    text-decoration: none;
+    color: #030303;
+}
+
+p {
+    font-size: 1.2rem;
+}

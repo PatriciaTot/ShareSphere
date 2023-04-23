@@ -1,0 +1,30 @@
+{
+  "description": "Ordinateur",
+  "isBorrowed":false,
+  "borrower":null
+}
+{
+  "description": "Téléphone",
+  "isBorrowed":false,
+  "borrower":null
+}
+{
+  "description": "Casque",
+  "isBorrowed":false,
+  "borrower":null
+}
+{
+  "description": "Livre",
+  "isBorrowed": false,
+  "borrower":null
+}
+{
+  "description": "Lecteur DVD",
+  "isBorrowed": false,
+  "borrower":null
+}
+{
+  "description": "Imprimante",
+  "isBorrowed": false,
+  "borrower":null
+}

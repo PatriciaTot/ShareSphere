@@ -1,0 +1,46 @@
+#logout {
+    background-color: #cc3333;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+nav ul {
+	list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: var(--standard-txt-color);
+	padding: 0 10px;
+    margin: 30px;
+	font-family: sans-serif;
+	font-size: 15px;
+    background-color: #a5a9ac;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+nav a:hover {
+    background-color: #777bac;
+}
+
+.separator {
+    border: none;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    background-color: #007F86;
+}
+
+
+
