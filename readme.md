@@ -12,9 +12,6 @@ ShareSphere est une application de prêt d'objets où les utilisateurs peuvent c
 
 ## Rubrique How TO
 
-#### Cloner ce dépôt dans un terminal.*
-`git clone git@gitlab-etu.fil.univ-lille.fr:patricia.totoummandoum.etu/javascript_patricia_totoum.git`
-
 *** Ouvrir un terminal dans le dossier de l'application. ***
 
 #### Créer le dossier dbData
